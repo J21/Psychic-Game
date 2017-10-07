@@ -1,3 +1,19 @@
+(function() { // Wrap in a function to not pollute the global scope
+
+  // Colors. These are the color names you can use in CSS. You could use color codes
+  // like #rrggbb as well.
+  var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+
+  var colorIndex = 0;
+
+  setInterval(function(){
+    // Set the color and increment the index.
+    document.body.style.backgroundColor = colors[colorIndex++];
+
+    // Wrap the index if it goes past the length of the array. % is modulo.
+    colorIndex %= colors.length;
+    }, 1000);
+})();
 alert("Hi! Welcome to the game! Let's play!!");
 	var Choices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 	var wins = 0;
