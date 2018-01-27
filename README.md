@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+Welcome! Let me explain how this game works.
 
-You can use the [editor on GitHub](https://github.com/J21/Psychic-Game/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Step 1: First you input a letter.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Step 2: If the letter is not the correct letter, the letter you typed will be displayed and you will use up one of your tries. Then you will have another chance to try. You have a limited amount of guesses though so be careful! 
 
-### Markdown
+Step 3a: If you guessed the correct letter, then you win! You get a point and you can continue playing with a new game and a new letter to guess.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Step 3b: If you used up all your guesses, you lose! You will get a loss and can continue playing with a new game and a new letter to guess.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/J21/Psychic-Game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+And that's it! Enjoy the game!
